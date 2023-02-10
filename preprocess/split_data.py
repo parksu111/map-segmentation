@@ -74,3 +74,9 @@ if __name__== "__main__":
     # compile info as dataframe
     keydf = pd.DataFrame({'img_id':original_fname, 'encoded_id':encoded_fname, 'train':isTrain})
     keydf.to_csv(os.path.join(output_dir, 'keydf.csv'), index=False)
+
+    traindf = keydf[keydf.train==True].reset_index(drop=True)
+    traindf = traindf.drop(columns=['img_id','train'])
+    traindf['mask'] = traindf.encoded_id
+    traindf.columns = ['img','mask']
+    traindf.to_csv(os.path.join(train_dir, 'traindf.csv'), index=False)
