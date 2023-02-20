@@ -5,12 +5,12 @@
 This competition task was developed as part of an educational program hosted by [KOSMES](https://www.kosmes.or.kr/sbc/SH/MAP/SHMAP002M0.do) and run by [MNC](https://mnc.ai/). The actual competition page can be found [here](https://aiconnect.kr/competition/detail/220).
 
 ## Raw Data
-The raw data used for this project can be downloaded [here](). It consists of:
+The raw data used for this project can be downloaded [here](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=143). It consists of:
 * aerial images of Seoul and the Gyeonggi province in .tif format.
 * json files containing polygon coordinates of different features within the images.
 * json files containing meta data.
 
-This [notebook]() gives a detailed overview of how the raw data was processed to prepare the train and test datasets for this competition.
+This [notebook](https://github.com/parksu111/map-segmentation/blob/main/Data_Prep.ipynb) gives a detailed overview of how the raw data was processed to prepare the train and test datasets for this competition.
 
 ## Task Overview
 * Description: Determine whether each pixel in an aerial image corresponds to a building or not (Image segmentation).
