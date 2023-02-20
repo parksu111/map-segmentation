@@ -1,4 +1,5 @@
 # Map Segmentation AI Competition
+![alt text](https://github.com/parksu111/map-segmentation/blob/main/img/mask_ex.png)
 
 ## Introduction
 This competition task was developed as part of an educational program hosted by [KOSMES](https://www.kosmes.or.kr/sbc/SH/MAP/SHMAP002M0.do) and run by [MNC](https://mnc.ai/). The actual competition page can be found [here](https://aiconnect.kr/competition/detail/220).
