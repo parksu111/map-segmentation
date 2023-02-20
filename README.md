@@ -10,7 +10,7 @@ The raw data used for this project can be downloaded [here](https://www.aihub.or
 * json files containing polygon coordinates of different features within the images.
 * json files containing meta data.
 
-This [notebook](https://github.com/parksu111/map-segmentation/blob/main/Data_Prep.ipynb) gives a detailed overview of how the raw data was processed to prepare the train and test datasets for this competition.
+This [notebook](https://github.com/parksu111/map-segmentation/blob/main/data_prep.ipynb) gives a detailed overview of how the raw data was processed to prepare the train and test datasets for this competition.
 
 ## Task Overview
 * Description: Determine whether each pixel in an aerial image corresponds to a building or not (Image segmentation).
