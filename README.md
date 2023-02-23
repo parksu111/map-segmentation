@@ -24,9 +24,9 @@ This [notebook](https://github.com/parksu111/map-segmentation/blob/main/data_pre
 * *data_prep.ipynb* - Jupyter Notebook detailing how the raw data was processed to make the train and test datasets.
 * *evaluation_prep.ipynb* - Jupyter Notebook detailing how evaluation of user predictions is done.
 * *baseline.ipynb* - Jupyter Notebook of the baseline model for this task provided to students.
- * The baseline model is the UNET. The encoder is the efficientnet-b0 and it was pretrained on imagenet.
- * This notebook includes both the training and inference steps.
- * The same notebook with comments in Korean is also available.
+  * The baseline model is the UNET. The encoder is the efficientnet-b0 and it was pretrained on imagenet.
+  * This notebook includes both the training and inference steps.
+  * The same notebook with comments in Korean is also available.
 * preprocess/
   * *fix_utf.sh* - Bash script fixing utf-8 encoding error in raw json files.
   * *make_masks.py* - Python script to extract information from json files and make mask png files.
